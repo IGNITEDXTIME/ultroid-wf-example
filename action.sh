@@ -1,3 +1,4 @@
+pip3 install redis hiredis
 cp ultroid/.env /root/TeamUltroid/.env
 cd /root/TeamUltroid && ls
 trap 'exit()'
